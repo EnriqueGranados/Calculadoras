@@ -1,0 +1,58 @@
+.calculadora {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgba(10, 9, 9, 0.897);
+    width: 345px;
+    height: 420px;
+}
+
+    .calculadora td button {
+        display: block;
+        width: 70px;
+        height: 40px;
+        font-size: 25px;
+        border-radius: 5px;
+        color: white;
+        background-color:black;
+        
+    }
+
+    #mrc , #mmenos , #mmas{
+        background-color:rgba(10, 9, 9, 0.897);
+        color: rgba(10, 9, 9, 0.897);
+        border: none;
+    }
+    
+    #division, #multiplicacion, #resta, #suma, #igual{
+        background-color:rgba(10, 9, 9, 0.897);
+        color: rgb(8, 235, 8);
+    }
+
+    #igual:hover{
+       background-color:rgb(8, 235, 8);
+       color: black;
+    }
+
+    #reset{
+        color:red;
+    }
+
+    #reset:hover{
+        background-color: red;
+        color: black;
+    }
+
+
+#resultado {
+    display: block;
+    text-align:right;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 75px;
+    line-height: 100px;
+    background-color:#acacac;
+    border-radius: 5px;
+    border:5px solid gray;
+}
